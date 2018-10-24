@@ -1,11 +1,13 @@
 import React from 'react';
 
+import TodoList from 'todo/TodoList';
+
 import './App.scss';
 
 const App = () => {
   return (
     <div styleName="container">
-      Hello, World!
+      <TodoList />
     </div>
   );
 };

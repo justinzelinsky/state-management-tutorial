@@ -1,0 +1,22 @@
+.todo-container {
+  width: 800px;
+
+  header {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+ul.todo-list {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.todo-list-form {
+  display: flex;
+}
+
+.new-todo-input {
+  flex: 1;
+}
